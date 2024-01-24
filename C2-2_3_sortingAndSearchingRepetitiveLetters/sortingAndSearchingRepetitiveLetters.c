@@ -22,7 +22,7 @@ int main(void){
         }
     }
 
-    // Goes through wod backwards to save one variable.
+    // Goes through word backwards to save one variable.
     while (wordLength > 0){
         if (word[wordLength] == word[wordLength - 1]){
             multiplesCounter++;
