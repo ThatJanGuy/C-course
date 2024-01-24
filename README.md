@@ -16,3 +16,7 @@ Should you take the course yourself or know it by heart, You'll see that my solu
 
 Please find the programme here:
 https://www.edx.org/certificates/professional-certificate/dartmouth-imtx-c-programming-with-linux
+
+# Tools I used
+VSCode
+clipboard2mardown (https://euangoddard.github.io/clipboard2markdown/)
