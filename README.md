@@ -18,5 +18,5 @@ Please find the programme here:
 https://www.edx.org/certificates/professional-certificate/dartmouth-imtx-c-programming-with-linux
 
 # Tools I used
-VSCode
-clipboard2mardown (https://euangoddard.github.io/clipboard2markdown/)
+- VSCode
+- clipboard2mardown (https://euangoddard.github.io/clipboard2markdown/)
