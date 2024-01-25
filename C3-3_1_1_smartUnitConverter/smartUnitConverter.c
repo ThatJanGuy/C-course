@@ -13,12 +13,6 @@ int main(void){
     double inOutValues[maxNoOfConversions];
     char inOutUnits[maxNoOfConversions];
 
-    // Iitialises the in-out arrays to a clean state.
-    for (int i = 0; i < maxNoOfConversions; i++){
-        inOutValues[i] = 0;
-        inOutUnits[i] = '\0';
-    }
-
     scanf("%d", &noOfConversions);
 
     for (int i = 0; i < noOfConversions; i++){
@@ -33,11 +27,7 @@ int main(void){
         } else if (inOutUnits[i] == 'c') {
             printf("%lf f\n", celsiusToFahrenheit(inOutValues[i]));
         }
-
-        inOutValues[i] = 0;
-        inOutUnits[i] = '\0';
     }
-
     return (0);
 }
 
