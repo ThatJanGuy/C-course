@@ -22,6 +22,9 @@ int main(void){
         } else if (type == 'c') {
             sumOfBytes += number * sizeof(char);
         } else {
+            // This pushes the output of invalid types to the
+            // end of the execution. Simply because that's where
+            // it is in the examples.
             inputCorrect = 0;
         }
     }
