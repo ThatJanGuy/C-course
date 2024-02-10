@@ -20,6 +20,6 @@ https://www.edx.org/certificates/professional-certificate/dartmouth-imtx-c-progr
 # Tools I used
 - VSCode
   - Extension: C/C++ by _Microsoft_. [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
-  -  Extension: C/C++ Extension Pack by _Microsoft_. [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)
+  - Extension: C/C++ Extension Pack by _Microsoft_. [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)
   - Extension: Code Runner by _Jun Han_. [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 - clipboard2mardown (https://euangoddard.github.io/clipboard2markdown/)
