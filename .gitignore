@@ -57,7 +57,8 @@ dkms.conf
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -77,6 +78,9 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Personal directory to play around in
+playground
 
 .fake
 tempCodeRunnerFile.c
