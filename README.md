@@ -17,7 +17,10 @@ Should you take the course yourself or know it by heart, You'll see that my solu
 Please find the programme here:
 https://www.edx.org/certificates/professional-certificate/dartmouth-imtx-c-programming-with-linux
 
+It's free if you don't want a certificate. It's really well done and works even if you have no idea about programming at all.
+
 # Tools I used
+Short info. You don't need any of that. The whole course works in the browser. It's really, really good.
 - VSCode
   - Extension: C/C++ by _Microsoft_. [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
   - Extension: C/C++ Extension Pack by _Microsoft_. [Marketplace Link](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools-extension-pack)
