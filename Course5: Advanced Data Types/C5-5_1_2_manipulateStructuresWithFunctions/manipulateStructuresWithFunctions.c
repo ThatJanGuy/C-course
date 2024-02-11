@@ -98,6 +98,10 @@ struct date advanceDay(struct date date){
         return date;
     } 
 
+    // Should never be reached. This is just here
+    // to create a return that could be sorted out
+    // as an error. But mainly to get rid of the compiler
+    // warning.
     date.year = 9999;
     date.month = 99;
     date.day = 99;
