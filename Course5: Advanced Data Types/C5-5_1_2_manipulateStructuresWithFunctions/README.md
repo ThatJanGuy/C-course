@@ -49,3 +49,35 @@ You are provided with a familiar date structure definition, a main function as w
 >12/31/2018
 >
 >01/01/2019
+
+## Provided code
+
+```
+#include <stdio.h>
+
+struct date {
+        int year;
+        int month;
+        int day;
+    };
+
+/* function prototypes */
+void printDate(struct date);
+void readDate(struct date *);
+struct date advanceDay(struct date);
+
+int main(void) {
+	struct date today, tomorrow;
+	readDate(&today);
+	printDate(today);
+	tomorrow = advanceDay(today);
+	printDate(tomorrow);
+	return 0;
+}
+
+/* add your function definitions here */
+```
+
+## Note:
+
+You may submit your solution as many times as you wish. Only your highest score will be kept.
