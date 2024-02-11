@@ -9,10 +9,11 @@ In your main() function you should call the function allocateString() twice: onc
 ## Example
 
 ### Input
-
-> 4 6\
-> hell\
-> dunkel
+```
+4 6
+hell
+dunkel
+```
 
 ### Output
 
