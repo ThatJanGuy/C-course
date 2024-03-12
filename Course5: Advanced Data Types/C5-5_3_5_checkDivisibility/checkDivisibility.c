@@ -81,13 +81,17 @@ struct digit *readNumber(void) {
 
 // Write your divisibleByThree() function here
 int divisibleByThree(struct digit * currentDigitOfNumber){
-    int numberToCheck = 0;
-    while(currentDigitOfNumber->next != NULL){
-        numberToCheck = numberToCheck * 10 + currentDigitOfNumber->num;
+    // Simplification of the check:
+    // When the digit sum of a number is divisible by 3, then so is the number.
+    int digitSum = 0;
+    // This is clumsy, but I'll leave it here as a bad example.
+    // It would be smarter to check if the whole pointer is NULL.
+    while(currentDigitOfNumber->next != NULL){  
+        digitSum += currentDigitOfNumber->num;
         currentDigitOfNumber = currentDigitOfNumber->next;
     }
-    numberToCheck = numberToCheck * 10 + currentDigitOfNumber->num;
-    if(numberToCheck % 3 == 0)
+    digitSum += currentDigitOfNumber->num;  
+    if(digitSum % 3 == 0)
         return 1;
     return 0;
 }
