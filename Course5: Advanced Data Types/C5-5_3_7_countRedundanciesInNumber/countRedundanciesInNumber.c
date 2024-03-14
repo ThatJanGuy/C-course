@@ -109,8 +109,8 @@ int changeThrees(struct digit * start) {
 }
 
 // Write your countRedun() function here
-int countRedun(struct digit * firstDigitOfNumberToCheck){
-    struct digit * currentDigitOfNumberToCheck = firstDigitOfNumberToCheck;
+int countRedun(struct digit * pointerToFirstDigitOfNumberToCheck){
+    struct digit * pointerToCurrentDigitOfNumberToCheck = pointerToFirstDigitOfNumberToCheck;
     int redundanciesFound = 0;
     int checklistOfEncounteredDigits[10];
 
@@ -118,13 +118,13 @@ int countRedun(struct digit * firstDigitOfNumberToCheck){
         checklistOfEncounteredDigits[arrayPositionToSetZero] = 0;
     }
 
-    while(currentDigitOfNumberToCheck != NULL){
-        if(checklistOfEncounteredDigits[currentDigitOfNumberToCheck->num] == 1){
+    while(pointerToCurrentDigitOfNumberToCheck != NULL){
+        if(checklistOfEncounteredDigits[pointerToCurrentDigitOfNumberToCheck->num] == 1){
             redundanciesFound++;
         } else {
-            checklistOfEncounteredDigits[currentDigitOfNumberToCheck->num] = 1;
+            checklistOfEncounteredDigits[pointerToCurrentDigitOfNumberToCheck->num] = 1;
         }
-        currentDigitOfNumberToCheck = currentDigitOfNumberToCheck->next;
+        pointerToCurrentDigitOfNumberToCheck = pointerToCurrentDigitOfNumberToCheck->next;
     }
 
     return redundanciesFound;
